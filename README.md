@@ -7,6 +7,6 @@ This is the developer's personal website
 ✔️ Landing Page\
 ✔️ About Me\
 ✔️ Projects Showcase\
-✔️ Contact me\
+✔️ Contact me
 
 
