@@ -28,7 +28,7 @@ List<String> contact = [
 
 List<Uri> links = [
   Uri.parse("https://discord.com/users/382824111988146177"),
-  Uri.parse("https://flutter.dev"),
+  Uri.parse("https://www.fiverr.com/kongisdev"),
   Uri.parse("https://github.com/Kongis"),
 ];
 String wait = "";
