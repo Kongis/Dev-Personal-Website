@@ -67,7 +67,7 @@ class _DesktopScreenState extends State<DesktopScreen> with SingleTickerProvider
     opacityChangeRate: 0.25,
     minOpacity: 0.1,
     maxOpacity: 0.4,
-    particleCount: 150,
+    particleCount: 80,
     spawnMaxRadius: 15.0,
     spawnMaxSpeed: 100.0,
     spawnMinSpeed: 30,

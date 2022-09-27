@@ -12,11 +12,11 @@ class MobileAboutScreen extends StatelessWidget {
     return Container(
       color: Colors.transparent, 
       child: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 10.w, vertical: 20.h),
+        padding: EdgeInsets.symmetric(horizontal: 10.w, vertical: 15.h),
         child: BlurryContainer(
             blur: 20,
             width: 80.w,
-            height: 60.h,
+            height: 65.h,
             elevation: 0,
             color: Colors.teal.withOpacity(0.2),
             borderRadius: BorderRadius.circular(40),
@@ -30,23 +30,23 @@ class MobileAboutScreen extends StatelessWidget {
                 ),
                 Padding(
                   padding: EdgeInsets.only(top: 4.h, left: 4.w, right: 4.w),
-                  child: Text(aboutme[0], style: getFont(15 , "#FFFFFF"),),
+                  child: Text(aboutme[0], style: getFont(11 , "#FFFFFF"),),
                   ),
                 Padding(
                   padding: EdgeInsets.only(top: 1.h, left: 4.w, right: 4.w),
-                  child: Text(aboutme[1], style: getFont(15 , "#FFFFFF"),),
+                  child: Text(aboutme[1], style: getFont(11 , "#FFFFFF"),),
                   ),
                 Padding(
                   padding: EdgeInsets.only(top: 1.h, left: 4.w, right: 4.w),
-                  child: Text(aboutme[2], style: getFont(15 , "#FFFFFF"),),
+                  child: Text(aboutme[2], style: getFont(11 , "#FFFFFF"),),
                   ),
                 Padding(
                   padding: EdgeInsets.only(top: 1.h, left: 4.w, right: 4.w),
-                  child: Text(aboutme[3], style: getFont(15 , "#FFFFFF"),),
+                  child: Text(aboutme[3], style: getFont(11 , "#FFFFFF"),),
                   ),
                 Padding(
                   padding: EdgeInsets.only(top: 1.h, left: 4.w, right: 4.w),
-                  child: Text(aboutme[4], style: getFont(15 , "#FFFFFF"),),
+                  child: Text(aboutme[4], style: getFont(11 , "#FFFFFF"),),
                   ),
               ],
             ),

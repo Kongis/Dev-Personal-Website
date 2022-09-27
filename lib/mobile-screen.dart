@@ -36,7 +36,7 @@ class MobileScreenState extends State<MobileScreen> with TickerProviderStateMixi
     opacityChangeRate: 0.25,
     minOpacity: 0.1,
     maxOpacity: 0.4,
-    particleCount: 150,
+    particleCount: 30,
     spawnMaxRadius: 15.0,
     spawnMaxSpeed: 100.0,
     spawnMinSpeed: 30,
@@ -78,7 +78,7 @@ class MobileScreenState extends State<MobileScreen> with TickerProviderStateMixi
             behaviour: RandomParticleBehaviour(options: particles),
             child: Scaffold(
               backgroundColor: Colors.transparent, 
-              body: DelayedDisplay(delay: Duration(seconds: initialDelay.inSeconds), child: screens[currentIndex]),
+              body: screens[currentIndex],//DelayedDisplay(delay: Duration(seconds: initialDelay.inSeconds), child: screens[currentIndex]),
               bottomNavigationBar: SafeArea(
                 child: Padding(
                   padding: EdgeInsets.symmetric(horizontal: 2.w, vertical: 2.h),
@@ -117,7 +117,7 @@ class MobileScreenState extends State<MobileScreen> with TickerProviderStateMixi
               ],
               selectedIndex: currentIndex,
               onTabChange: (index) {
-                currentIndex = index;
+                /*currentIndex = index;
                 Transitioner(
                   context: context,
                   child: MobileScreen(),
@@ -125,11 +125,11 @@ class MobileScreenState extends State<MobileScreen> with TickerProviderStateMixi
                   duration: Duration(milliseconds: 500),
                   replacement: true,
                   curveType: CurveType.ease,
-                );
-                /*setState(() {
+                );*/
+                setState(() {
                   currentIndex = index;
                   //Navigator.push(context, MaterialPageRoute(builder: (context) => MobileScreen()));
-                });*/
+                });
               }),
                 )
               )
