@@ -66,7 +66,7 @@ class MobileScreenState extends State<MobileScreen> with TickerProviderStateMixi
     );
   }
   Widget build(BuildContext context) {
-    _controller.forward();
+    _controller.forward(); 
     return Sizer(
       builder: (context, orientation, deviceType) {
         return Container(color: HexColor("#1B1725"), 
